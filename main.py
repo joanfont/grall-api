@@ -4,12 +4,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from sonador.config import config
-from sonador.services import GetSongOfDay, GetSongs
-from sonador.utils import Calendar
+from grall.config import config
+from grall.services import GetSongOfDay, GetSongs
+from grall.utils import Calendar
 
 
-app = FastAPI(title="Sonador", version="1.0")
+app = FastAPI(title="Grall", version="1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*'],

@@ -4,7 +4,7 @@ import json
 
 import redis
 
-from sonador.config import config
+from grall.config import config
 
 
 connection = redis.Redis(host=config.REDIS_HOST, port=config.REDIS_PORT)

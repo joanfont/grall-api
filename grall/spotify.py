@@ -4,11 +4,11 @@ from urllib.parse import urlparse, parse_qs
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-from sonador.cache import remember
-from sonador.config import config
-from sonador.encoder import SongEncoder, SongDecoder
-from sonador.models import Song
-from sonador.factories import SongFactory
+from grall.cache import remember
+from grall.config import config
+from grall.encoder import SongEncoder, SongDecoder
+from grall.models import Song
+from grall.factories import SongFactory
 
 
 class SpotifyClient:

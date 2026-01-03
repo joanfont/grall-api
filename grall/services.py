@@ -1,11 +1,11 @@
 from datetime import date
 import random
 
-from sonador.config import config
-from sonador.models import Song
-from sonador.repository import SongRepository, RedisSongRepository
-from sonador.spotify import SpotifyClient, CachedSpotipyClient
-from sonador.utils import Calendar
+from grall.config import config
+from grall.models import Song
+from grall.repository import SongRepository, RedisSongRepository
+from grall.spotify import SpotifyClient, CachedSpotipyClient
+from grall.utils import Calendar
 
 
 class GetSongOfDay:

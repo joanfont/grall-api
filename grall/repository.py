@@ -3,9 +3,9 @@ from datetime import date
 import json
 
 
-from sonador.encoder import SongEncoder, SongDecoder
-from sonador.models import Song
-from sonador.cache import connection
+from grall.encoder import SongEncoder, SongDecoder
+from grall.models import Song
+from grall.cache import connection
 
 class SongRepository:
     __metaclass__ = ABCMeta

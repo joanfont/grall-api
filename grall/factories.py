@@ -1,4 +1,4 @@
-from sonador.models import Song
+from grall.models import Song
 
 class SongFactory:
 

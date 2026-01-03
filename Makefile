@@ -1,10 +1,11 @@
 .PHONY: build
-
 build:
-	docker-compose build app
+	docker compose build app
 
+.PHONY: push
 push:
-	docker-compose push app
+	docker compose push app
 
+.PHONY:	up
 up:
-	docker-compose up -d app
+	docker compose up -d app
